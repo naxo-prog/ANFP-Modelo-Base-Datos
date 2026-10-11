@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F635B86C-9AFC-8947-1912-3E921608545F" name="JUGADOR_CLUB">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 16:46:49 UTC</createdTime>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<engineerTo>
+<item key="2CE092C5-7C71-C13B-C47E-5D24D471038A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_trabajador" id="FB94B72C-DE1A-8EA0-90A3-5F4B709C544E">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 16:47:04 UTC</createdTime>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<engineerTo>
+<item key="2CE092C5-7C71-C13B-C47E-5D24D471038A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_inicio" id="F3E91B4E-E982-B786-0DC4-CCD0E5B8A6CC">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 16:48:01 UTC</createdTime>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<engineerTo>
+<item key="2CE092C5-7C71-C13B-C47E-5D24D471038A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_termino" id="86A56ED5-FB05-A664-7091-3FDA4F9B3A6D">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 16:48:15 UTC</createdTime>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<engineerTo>
+<item key="2CE092C5-7C71-C13B-C47E-5D24D471038A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_club1" id="7D4748EA-1C6C-9089-BE76-4485276E3F5E">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 17:17:06 UTC</createdTime>
+<generatorID>51D507C7-FBBC-E0AF-AC92-17F412908311</generatorID>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<engineerTo>
+<item key="2CE092C5-7C71-C13B-C47E-5D24D471038A" value="true"/>
+</engineerTo>
+<referedAttribute>B19DDF7D-31FF-FB30-939E-776708C9DFE5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_trabajador1" id="FD89AB77-8212-D197-DD9D-AD8E44D05751">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 19:25:17 UTC</createdTime>
+<generatorID>CB61EF85-BA13-6958-7E46-779A489CAFA5</generatorID>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<engineerTo>
+<item key="2CE092C5-7C71-C13B-C47E-5D24D471038A" value="true"/>
+</engineerTo>
+<referedAttribute>0A27FC14-219F-FF1E-BB17-7C4BC8B03CB9</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1328C76F-95FA-67B3-D483-E21EDDDB36B5" name="JUGADOR_CLUB PK">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 16:47:22 UTC</createdTime>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<engineerTo>
+<item key="2CE092C5-7C71-C13B-C47E-5D24D471038A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FB94B72C-DE1A-8EA0-90A3-5F4B709C544E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

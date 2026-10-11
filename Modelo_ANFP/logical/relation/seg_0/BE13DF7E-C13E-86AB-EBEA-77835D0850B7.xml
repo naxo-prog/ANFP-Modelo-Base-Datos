@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="COMUNA_TRABAJADORES" directorySegmentName="seg_0" id="BE13DF7E-C13E-86AB-EBEA-77835D0850B7">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 17:03:33 UTC</createdTime>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<engineerTo>
+<item key="2CE092C5-7C71-C13B-C47E-5D24D471038A" value="true"/>
+</engineerTo>
+<sourcePk>3219BC21-FEFE-2495-54A7-59C208C4427D</sourcePk>
+<targetPk>D0A19840-CC73-F22A-2CE8-BFB8554B6FDE</targetPk>
+<identifying>false</identifying>
+<nameOnSource>vienen</nameOnSource>
+<nameOnTarget>tiene</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9642D4E1-8649-C007-A538-F52A664B0940</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>36B89A9F-9025-1566-AFC1-0BF3DAB175CA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

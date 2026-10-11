@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="742D6B7B-095C-E065-4C28-DF77CD630543" name="IDIOMA">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 18:56:14 UTC</createdTime>
+<generatorID>E1D12B87-9CB2-9D14-F047-F8164A649F37</generatorID>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_idioma" id="8F4E0C26-5EFC-7B2B-40D7-0238374D8B0A">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 18:56:14 UTC</createdTime>
+<generatorID>1BDAE441-BCC5-7E21-7BDB-E79D7BAD3716</generatorID>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_idioma" id="E06E2E6B-B1EA-17B3-4A3C-1AE825E4C1A7">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 18:56:14 UTC</createdTime>
+<generatorID>453B746C-9DE3-ADB9-6D55-2933BB5DFC78</generatorID>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0E34939F-F7FC-EA29-BFEF-35C156A24412" name="IDIOMA_PK">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 18:56:14 UTC</createdTime>
+<generatorID>3654DEFA-00B4-CD89-E9E4-9A000D6DB998</generatorID>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F4E0C26-5EFC-7B2B-40D7-0238374D8B0A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

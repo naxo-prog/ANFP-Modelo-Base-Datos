@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9E82A935-54EA-795F-42C5-B7271D4F7B6E" name="JUGADOR_IDIOMA">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 16:49:57 UTC</createdTime>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<engineerTo>
+<item key="2CE092C5-7C71-C13B-C47E-5D24D471038A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_trabajador" id="90E42721-EF1F-44A1-CCCD-F8B0EAEE6DEA">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 16:50:14 UTC</createdTime>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<engineerTo>
+<item key="2CE092C5-7C71-C13B-C47E-5D24D471038A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_idioma" id="3F0020B1-4362-0E19-CD3A-221427B0F9DE">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 16:51:27 UTC</createdTime>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<engineerTo>
+<item key="2CE092C5-7C71-C13B-C47E-5D24D471038A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nivel_dominio" id="F4439FFB-67F8-4A33-B902-1809133BDBAE">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 16:52:10 UTC</createdTime>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<engineerTo>
+<item key="2CE092C5-7C71-C13B-C47E-5D24D471038A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_idioma1" id="8A646358-39AF-EC5A-DBAD-BB336DB64410">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 17:33:12 UTC</createdTime>
+<generatorID>5705DF0C-F785-F8E3-E902-ACDB5E3E2804</generatorID>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<engineerTo>
+<item key="2CE092C5-7C71-C13B-C47E-5D24D471038A" value="true"/>
+</engineerTo>
+<referedAttribute>1BDAE441-BCC5-7E21-7BDB-E79D7BAD3716</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_trabajador1" id="1995FC6D-DE58-9654-C335-231707967923">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 19:25:17 UTC</createdTime>
+<generatorID>00E33451-F43B-70E4-D6FF-99B51D8DA9DE</generatorID>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<engineerTo>
+<item key="2CE092C5-7C71-C13B-C47E-5D24D471038A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>0A27FC14-219F-FF1E-BB17-7C4BC8B03CB9</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F0E105D8-BAA5-F489-5FAC-F8D9D968740F" name="JUGADOR_IDIOMA PK">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 16:50:51 UTC</createdTime>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<engineerTo>
+<item key="2CE092C5-7C71-C13B-C47E-5D24D471038A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>90E42721-EF1F-44A1-CCCD-F8B0EAEE6DEA</attributeRef>
+<attributeRef>3F0020B1-4362-0E19-CD3A-221427B0F9DE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

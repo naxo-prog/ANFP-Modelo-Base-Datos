@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3DF3EE6E-AFE1-79E3-88B6-C2CE07707942" name="PERSONAL_PLANTA">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 16:30:50 UTC</createdTime>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<engineerTo>
+<item key="2CE092C5-7C71-C13B-C47E-5D24D471038A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>36B89A9F-9025-1566-AFC1-0BF3DAB175CA</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_trabajador" id="37A299E4-1DA5-CCE2-5AEE-4DCE1502BFD5">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 16:31:02 UTC</createdTime>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<engineerTo>
+<item key="2CE092C5-7C71-C13B-C47E-5D24D471038A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horas_trabajadas" id="C9D2908F-C237-CF00-5F91-6439610756EF">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 16:31:42 UTC</createdTime>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<engineerTo>
+<item key="2CE092C5-7C71-C13B-C47E-5D24D471038A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor_horas_extras" id="7C79574B-2772-2C0A-311E-66980CB53A8D">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 16:32:02 UTC</createdTime>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<engineerTo>
+<item key="2CE092C5-7C71-C13B-C47E-5D24D471038A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C6569F6F-4E89-8E97-7E1E-5F20CA911B6C" name="PERSONAL_PLANTA PK">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 16:31:39 UTC</createdTime>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<engineerTo>
+<item key="2CE092C5-7C71-C13B-C47E-5D24D471038A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>37A299E4-1DA5-CCE2-5AEE-4DCE1502BFD5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

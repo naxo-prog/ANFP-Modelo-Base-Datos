@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="87F57259-0759-AD6A-4364-7D968B805E11" name="ESCUELA_FUTBOL">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 18:56:14 UTC</createdTime>
+<generatorID>B890646F-C0C1-A067-425B-921C5508B777</generatorID>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_escuela" id="CA0C1BD8-B761-AF9D-1F22-BF56A392965C">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 18:56:14 UTC</createdTime>
+<generatorID>5D0A76F9-AEAA-FF7D-BC27-12A46DBC43FA</generatorID>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_escuela" id="D470F12F-C3B0-4797-B911-DE6550A25388">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 18:56:14 UTC</createdTime>
+<generatorID>E0A14EB8-DAA8-20AD-7E56-DE6EDDF7D9F8</generatorID>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="capacidad" id="48DF3528-2C65-A7D0-2C3C-92EE91BE2410">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 18:56:14 UTC</createdTime>
+<generatorID>02C35161-8934-5DB0-351A-117C7320F5E4</generatorID>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_fundacion" id="059C80F7-6A42-C18B-2C3B-E668717AD0C3">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 18:56:14 UTC</createdTime>
+<generatorID>8B18A136-89D5-032C-9346-2D5980A3BDCA</generatorID>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="42A9F98A-E907-C32B-00DB-81F141C7D51A" name="ESCUELA_FUTBOL_PK">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 18:56:14 UTC</createdTime>
+<generatorID>03238310-7438-2F3E-0BE0-4886A623ED8D</generatorID>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA0C1BD8-B761-AF9D-1F22-BF56A392965C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

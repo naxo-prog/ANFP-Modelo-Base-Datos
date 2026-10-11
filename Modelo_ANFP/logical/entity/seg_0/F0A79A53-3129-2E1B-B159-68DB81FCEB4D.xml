@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F0A79A53-3129-2E1B-B159-68DB81FCEB4D" name="JUGADOR">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 16:28:39 UTC</createdTime>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<engineerTo>
+<item key="2CE092C5-7C71-C13B-C47E-5D24D471038A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>36B89A9F-9025-1566-AFC1-0BF3DAB175CA</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_trabajador" id="0A27FC14-219F-FF1E-BB17-7C4BC8B03CB9">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 19:24:47 UTC</createdTime>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<engineerTo>
+<item key="2CE092C5-7C71-C13B-C47E-5D24D471038A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_comuna" id="19AA175F-F37E-7C0D-B955-0B90D8DABB61">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 18:16:35 UTC</createdTime>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<engineerTo>
+<item key="2CE092C5-7C71-C13B-C47E-5D24D471038A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="puesto" id="C15F803A-DE63-B3ED-BC53-A4C8E8D194EF">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 16:29:46 UTC</createdTime>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<engineerTo>
+<item key="2CE092C5-7C71-C13B-C47E-5D24D471038A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="premios_acumulados" id="FF60FB5B-F386-9A23-3280-08597FA72D50">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 16:30:10 UTC</createdTime>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<engineerTo>
+<item key="2CE092C5-7C71-C13B-C47E-5D24D471038A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_asociacion" id="1D4CEAD7-5581-987B-2A75-27742DBEBABB">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 17:08:24 UTC</createdTime>
+<generatorID>719B2F94-1C83-B496-22EF-5A8F94BCFE51</generatorID>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<engineerTo>
+<item key="2CE092C5-7C71-C13B-C47E-5D24D471038A" value="true"/>
+</engineerTo>
+<referedAttribute>7E6BCD39-9E37-AC61-F244-10164BD3D0C4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_escuela" id="0891A92F-5072-35CC-C01E-6C6BA0C5811F">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 17:12:48 UTC</createdTime>
+<generatorID>558CCCB6-C111-3387-72CD-2DCCEB317FA2</generatorID>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<engineerTo>
+<item key="2CE092C5-7C71-C13B-C47E-5D24D471038A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>5D0A76F9-AEAA-FF7D-BC27-12A46DBC43FA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="66E37584-5210-475D-B532-778A9F086212" name="JUGADOR PK">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 16:29:29 UTC</createdTime>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<engineerTo>
+<item key="2CE092C5-7C71-C13B-C47E-5D24D471038A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0A27FC14-219F-FF1E-BB17-7C4BC8B03CB9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

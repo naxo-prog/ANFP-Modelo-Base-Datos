@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REGION_COMUNA" directorySegmentName="seg_0" id="23C4490D-B0D9-2C90-C801-3D0E721AB49A">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 16:59:55 UTC</createdTime>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<engineerTo>
+<item key="2CE092C5-7C71-C13B-C47E-5D24D471038A" value="true"/>
+</engineerTo>
+<sourcePk>34C1C70B-5599-D125-F954-B828EC7E8219</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>viene</nameOnSource>
+<nameOnTarget>tiene</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3F0CE2C6-5AC3-279A-F204-CF49ECBFB748</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9642D4E1-8649-C007-A538-F52A664B0940</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

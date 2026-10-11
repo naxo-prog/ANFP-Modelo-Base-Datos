@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A6A9C2F3-4BCE-80C6-F949-32599F4E85C7" containerWithKeyObject="281C713B-494C-555A-42AE-4640595C62C5" localFKIndex="E9560215-D688-268E-0852-4A72DEDCDF73" name="JUGADOR_IDIOMA_IDIOMA_FK">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 18:56:14 UTC</createdTime>
+<generatorID>5705DF0C-F785-F8E3-E902-ACDB5E3E2804</generatorID>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<referredTableLongName>IDIOMA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>742D6B7B-095C-E065-4C28-DF77CD630543</referredTableID>
+<keyObject>0E34939F-F7FC-EA29-BFEF-35C156A24412</keyObject>
+<referredKeyID>0E34939F-F7FC-EA29-BFEF-35C156A24412</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_idioma</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ESCUELA_JUGADOR" directorySegmentName="seg_0" id="558CCCB6-C111-3387-72CD-2DCCEB317FA2">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 17:12:48 UTC</createdTime>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<engineerTo>
+<item key="2CE092C5-7C71-C13B-C47E-5D24D471038A" value="true"/>
+</engineerTo>
+<sourcePk>03238310-7438-2F3E-0BE0-4886A623ED8D</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>forma</nameOnSource>
+<nameOnTarget>proviene</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B890646F-C0C1-A067-425B-921C5508B777</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F0A79A53-3129-2E1B-B159-68DB81FCEB4D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

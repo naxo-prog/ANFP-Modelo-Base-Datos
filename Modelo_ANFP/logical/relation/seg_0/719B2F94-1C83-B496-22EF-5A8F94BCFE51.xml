@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ASOCIACION_JUGADOR" directorySegmentName="seg_0" id="719B2F94-1C83-B496-22EF-5A8F94BCFE51">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 17:08:24 UTC</createdTime>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<engineerTo>
+<item key="2CE092C5-7C71-C13B-C47E-5D24D471038A" value="true"/>
+</engineerTo>
+<sourcePk>B92AD8CF-B464-2E63-C521-334F3B5E594F</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>pertenece</nameOnSource>
+<nameOnTarget>tiene</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B7178D7B-C9C7-B3E2-FC25-CEB386A6B5EF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F0A79A53-3129-2E1B-B159-68DB81FCEB4D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

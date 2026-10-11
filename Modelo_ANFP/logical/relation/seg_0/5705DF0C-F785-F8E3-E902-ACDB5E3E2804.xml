@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="IDIOMA_JUGADOR_IDIOMA" directorySegmentName="seg_0" id="5705DF0C-F785-F8E3-E902-ACDB5E3E2804">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 17:33:12 UTC</createdTime>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<engineerTo>
+<item key="2CE092C5-7C71-C13B-C47E-5D24D471038A" value="true"/>
+</engineerTo>
+<sourcePk>3654DEFA-00B4-CD89-E9E4-9A000D6DB998</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>un</nameOnSource>
+<nameOnTarget>registra</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E1D12B87-9CB2-9D14-F047-F8164A649F37</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9E82A935-54EA-795F-42C5-B7271D4F7B6E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

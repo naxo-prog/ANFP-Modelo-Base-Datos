@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9642D4E1-8649-C007-A538-F52A664B0940" name="COMUNA">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 16:41:14 UTC</createdTime>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<engineerTo>
+<item key="2CE092C5-7C71-C13B-C47E-5D24D471038A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_comuna" id="DF1BA87D-43AD-2AF1-E89C-F0017F7A3753">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 16:41:21 UTC</createdTime>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<engineerTo>
+<item key="2CE092C5-7C71-C13B-C47E-5D24D471038A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_comuna" id="4B847F47-006D-3A03-5905-6E8D8FD27163">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 16:42:04 UTC</createdTime>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<engineerTo>
+<item key="2CE092C5-7C71-C13B-C47E-5D24D471038A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_region" id="E0A18276-595C-EB20-CB90-0114722FA911">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 16:59:55 UTC</createdTime>
+<generatorID>23C4490D-B0D9-2C90-C801-3D0E721AB49A</generatorID>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<engineerTo>
+<item key="2CE092C5-7C71-C13B-C47E-5D24D471038A" value="true"/>
+</engineerTo>
+<referedAttribute>2D0029EC-F8CB-62A5-FBB5-DB369B48F233</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3219BC21-FEFE-2495-54A7-59C208C4427D" name="COMUNA PK">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 16:42:02 UTC</createdTime>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<engineerTo>
+<item key="2CE092C5-7C71-C13B-C47E-5D24D471038A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DF1BA87D-43AD-2AF1-E89C-F0017F7A3753</attributeRef>
+<attributeRef>E0A18276-595C-EB20-CB90-0114722FA911</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

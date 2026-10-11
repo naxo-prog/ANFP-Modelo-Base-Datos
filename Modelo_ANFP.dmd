@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Modelo_ANFP" id="80E4873A-C607-D5D6-99AC-8D6ECE0C8D8C" version="3.5">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 16:10:42 UTC</createdTime>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>80E4873A-C607-D5D6-99AC-8D6ECE0C8D8C</designId>
+</OSDM_Design>

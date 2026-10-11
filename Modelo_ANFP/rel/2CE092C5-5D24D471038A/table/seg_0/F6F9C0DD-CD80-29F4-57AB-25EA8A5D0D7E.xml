@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F6F9C0DD-CD80-29F4-57AB-25EA8A5D0D7E" name="PERSONAL_PLANTA">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 18:56:14 UTC</createdTime>
+<generatorID>3DF3EE6E-AFE1-79E3-88B6-C2CE07707942</generatorID>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_trabajador" id="33325F2B-9CC6-08C7-1C2C-6434784AEECA">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 18:56:14 UTC</createdTime>
+<generatorID>B7A4BF3F-08FF-1904-4279-AF80EC53710E</generatorID>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="51CFB975-1136-10FB-A27E-F3795612C70F" referredColumn="4E2FD1E2-3583-1684-4144-3DDD56F99F7E"/>
+</associations>
+</Column>
+<Column name="id_trabajador1" id="24BA49EE-7946-0F15-7F7A-426EC1EEFB6D">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 18:56:14 UTC</createdTime>
+<generatorID>37A299E4-1DA5-CCE2-5AEE-4DCE1502BFD5</generatorID>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="horas_trabajadas" id="02CD011A-E44C-282E-74F0-8E4A277B64DF">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 18:56:14 UTC</createdTime>
+<generatorID>C9D2908F-C237-CF00-5F91-6439610756EF</generatorID>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_horas_extras" id="EDADCF3E-FE8B-D1A6-73B4-654BE51E9986">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 18:56:14 UTC</createdTime>
+<generatorID>7C79574B-2772-2C0A-311E-66980CB53A8D</generatorID>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AF587BB2-395A-78AD-6CBD-02521947BC90" name="PERSONAL_PLANTA_PK">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 18:56:14 UTC</createdTime>
+<generatorID>D0A19840-CC73-F22A-2CE8-BFB8554B6FDE</generatorID>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33325F2B-9CC6-08C7-1C2C-6434784AEECA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="50C71BD6-0DDE-2F46-83FF-807F71CD460E" name="PERSONAL_PLANTA_PKv1">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 18:56:14 UTC</createdTime>
+<generatorID>C6569F6F-4E89-8E97-7E1E-5F20CA911B6C</generatorID>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24BA49EE-7946-0F15-7F7A-426EC1EEFB6D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B42E5FE-5350-98C3-71EB-FBDCBA6C7146" name="PERSONAL_PLANTA_TRABAJADOR_FK">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 18:56:14 UTC</createdTime>
+<generatorID>4E884721-F00F-0366-3C6D-D58FFAB077EE</generatorID>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33325F2B-9CC6-08C7-1C2C-6434784AEECA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

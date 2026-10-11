@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CLUB_FUTBOL_JUGADOR_CLUB" directorySegmentName="seg_0" id="51D507C7-FBBC-E0AF-AC92-17F412908311">
+<createdBy>Ignacio</createdBy>
+<createdTime>2026-10-11 17:17:06 UTC</createdTime>
+<ownerDesignName>Modelo_ANFP</ownerDesignName>
+<engineerTo>
+<item key="2CE092C5-7C71-C13B-C47E-5D24D471038A" value="true"/>
+</engineerTo>
+<sourcePk>618F3FD2-AE31-0736-E4B5-BDC4B0E7EC35</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>viene</nameOnSource>
+<nameOnTarget>tiene </nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5109A1BA-D1FE-991F-9441-68E826E4DD35</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F635B86C-9AFC-8947-1912-3E921608545F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
